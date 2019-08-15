@@ -1,9 +1,9 @@
 katz_deli = []
 
-def line(spot)
+def line(name, spot)
   case spot
   when 0 
-    "The line is currently empty."
+    puts = "The line is currently empty."
   end
 end
 
