@@ -1,5 +1,5 @@
 def line(array)
-  
+  array do |name, index|
   if array[0] == nil
      puts = "The line is currently empty."
    end
