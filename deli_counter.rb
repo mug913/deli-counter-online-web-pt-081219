@@ -1,7 +1,9 @@
 def line(array)
   array do |name, index|
-  if array[0] == nil
-     puts = "The line is currently empty."
+  if array.length == 0
+     puts "The line is currently empty."
+  else 
+    puts "The line is currently:"
    end
  end
 
