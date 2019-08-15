@@ -16,7 +16,7 @@ end
 def take_a_number(array, new_name)
   array << new_name
   
-  puts "#{new_name}, Your spot is #{array.length}."
+  puts "Welcome #{new_name}. You are number #{array.length} in line."
 end
 
 def now_serving(array)
