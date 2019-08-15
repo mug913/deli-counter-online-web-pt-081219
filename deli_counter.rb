@@ -1,4 +1,4 @@
-def line(array)
+def line(array, inn)
   if array[0] == nil
      puts = "The line is currently empty."
    end
