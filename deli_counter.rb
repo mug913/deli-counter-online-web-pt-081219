@@ -1,7 +1,7 @@
 katz_deli = []
 
-def line(name, index)
-  case index
+def line(array)
+  case array.size
   when 0 
     puts = "The line is currently empty."
   end
