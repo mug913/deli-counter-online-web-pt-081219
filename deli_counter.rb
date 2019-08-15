@@ -1,11 +1,13 @@
 def line(array)
-  array do |name, index|
   if array.length == 0
      puts "The line is currently empty."
   else 
     puts "The line is currently:"
-   end
- end
+    array do |name, index|
+      puts "#{index} #{name}"
+    end
+  end
+end
 
 def take_a_number(array, new_name)
   array << new_name
