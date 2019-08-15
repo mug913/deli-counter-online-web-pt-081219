@@ -4,7 +4,8 @@ def line(array)
   else 
     puts "The line is currently:"
     array.each do |name, index|
-      puts "#{index + 1} #{name}"
+      spot = index + 1
+      puts "#{spot} #{name}"
     end
   end
 end
