@@ -1,11 +1,6 @@
-require.pry 
- 
 def line(array)
-  pry array.size
-  if array.size == 0 
-    puts = "The line is currently empty."
-  end
-end
+     puts = "The line is currently empty."
+ end
 
 def take_a_number(array, new_name)
   array << new_name
