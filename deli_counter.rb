@@ -10,7 +10,6 @@ def line(array)
     end
     current_line = line.join(" ")
     puts "The line is currently: #{current_line}" 
-    
   end
 end
 
